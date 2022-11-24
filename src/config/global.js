@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Fundamentos para fabricación de piezas en máquinas CNC',
+    descripcionCurso:
+      'El presente componente se fundamenta en la fabricación de piezas con máquinas de control numérico CNC, comenzando por la normatividad en las actividades propias de las funciones de los operarios hasta el conocimiento y alistamiento de las máquinas de control numérico CNC.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -32,30 +34,75 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normativa de seguridad y salud en el trabajo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Protocolos de seguridad en operaciones de mecanizado CNC',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Antes de mecanizar',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Durante el mecanizado',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Elementos de protección personal para el mecanizado',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Preparación para el mecanizado CNC',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Preparación del operario',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Preparación del espacio de trabajo',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Preparación de la máquina CNC',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Interpretación de planos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Tipos de máquinas CNC',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +148,121 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Seguridad Industrial',
+      referencia:
+        'Giraldo, A. (2019). <em>Seguridad Industrial.</em> Ingeniería. Ecoe Ediciones.',
+      tipo: 'E-Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_elibroELB126454',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Seguridad y Salud en el Trabajo',
+      referencia:
+        'Giraldo, M. (2022, agosto 12). <em>NTC listado de guías y normas técnicas colombianas de seguridad y salud en el trabajo.</em> SST-Safework. [web].',
+      tipo: 'Web',
+      link:
+        'https://sst-safework.com/ntc-listado-de-guias-y-normas-tecnicas-colombianas-de-seguridad-y-salud-en-el-trabajo/',
+    },
+    {
+      tema: 'Mecanizado CNC',
+      referencia:
+        'Serrano, D., Mejías, F. y Rodríguez, F. (2018). <em>Comprobación y optimización del programa CNC para el mecanizado por arranque de viruta.</em> Ic Editorial.',
+      tipo: 'E-Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/42599',
+    },
+    {
+      tema: 'Seguridad Industrial',
+      referencia:
+        'Tenaris Argentina. (2017). <em>12 reglas básicas de seguridad.</em> [Video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=3Sk6PqEa0ZA',
+    },
+    {
+      tema: 'Seguridad Industrial',
+      referencia:
+        'Yorka, J. (2017). <em>Típicas excusas de seguridad.</em> [Video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=dEDHPnHoqmo',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'ARL',
+      significado: 'sigla de Administradora de Riesgos Laborales.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Buril',
+      significado: 'herramienta de corte con la que trabaja un torno.',
+    },
+    {
+      termino: 'CAD',
+      significado:
+        'del inglés <em>Computer Aided Design</em>, o diseño asistido por el computador.',
+    },
+    {
+      termino: 'CAE',
+      significado:
+        'del inglés <em>Computer Aided Enginnering</em>, o ingeniería asistida por computador.',
+    },
+    {
+      termino: 'CAM',
+      significado:
+        'del inglés <em>Computer Aided Manufacture</em>, o fabricación asistida por computador.',
+    },
+    {
+      termino: 'CNC',
+      significado: 'control numérico computarizado.',
+    },
+    {
+      termino: 'EPP',
+      significado: 'elementos de protección personal.',
+    },
+    {
+      termino: 'Fresa',
+      significado:
+        'herramienta de corte con la que trabaja una fresadora o un centro de mecanizado.',
+    },
+    {
+      termino: 'Máquina NC',
+      significado: 'se refiere a una máquina con control numérico.',
+    },
+    {
+      termino: 'PLM',
+      significado:
+        'del inglés <em>Product Life Cycle</em>, o gestión del ciclo de vida del producto.',
+    },
+    {
+      termino: 'SGC',
+      significado: 'sigla de Sistema de Gestión de Calidad.',
+    },
+    {
+      termino: 'SST',
+      significado: 'sigla de Sistema de Seguridad y Salud en el Trabajo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Autycom (2020). <em>¿Qué es el control numérico computarizado o CNC?</em> Autycom.',
+      link:
+        'https://www.autycom.com/que-es-el-control-numerico-computarizado-o-cnc/',
+    },
+    {
+      referencia:
+        'Biguri, I. (2018). <em>Los ocho errores de acotación.</em> Dibujo técnico.',
+      link: 'https://ibiguridt.wordpress.com/2017/01/23/los-ocho-errores/',
+    },
+    {
+      referencia:
+        'Inoxform (2022). <em>Descubre los diferentes tipos de máquinas CNC.</em> Inoxform.',
+      link: 'https://inoxform.eu/es/tipos-de-maquinas-cnc/',
+    },
+    {
+      referencia:
+        'Martín, S. (2014). <em>Interpretación de Planos.</em> Fc Editorial.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_vitalsource9788415781141&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
     },
   ],
   creditos: {

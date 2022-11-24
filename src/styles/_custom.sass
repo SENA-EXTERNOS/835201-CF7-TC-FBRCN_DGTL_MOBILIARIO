@@ -10,10 +10,130 @@
     top: 51%
     right: 30%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+@media screen and (max-width:767px)
+  figure
+    img
+      max-width: 350px
+      margin: 1rem auto
+
+.banner-principal__img
+  width: auto
+
+// COLORES CORTOS
+.cp
+  color: $color-primario !important
+
+.cs
+  color: $color-secundario !important
+  
+.cac
+  color: $color-acento-contenido !important
+
+.cab
+  color: $color-acento-botones !important
+
+.cst
+  color: $color-sistema-texto !important
+
+.ctpc
+  color: #D2E1F1 !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/temas/fondoSup.png") !important
+  background-repeat: no-repeat
+  background-position: center
+  background-color: #EFEFEF !important
+  background-size: cover
+
+.banner-principal h1
+  color: $color-sistema-texto !important
+.banner-principal p
+  color: $color-sistema-texto !important
+.banner-interno__titulo h2
+  color: $color-sistema-texto !important
+
+//Rectángulos de fondo
+.rectanguloid
+  position: relative
+  &::before
+    content: ''
+    width: 60%
+    height: 35%
+    background-color: rgba(162, 230, 176, .25)
+    bottom: 0
+    right: 0
+    display: block
+    position: absolute
+    mix-blend-mode: multiply
+
+//INTRODUCCIÓN
+.fondoi
+  background-image: url("../assets/curso/temas/intro/fondoi.png")
+  background-repeat: no-repeat
+  background-position: top left
+  background-color: #EFEFEF
+
+//TEMA 1
+.tarjeta--lila
+  background-color: rgba(61, 80, 117, .15) !important
+
+.slyder-a__bullets__item--active
+  background-color: #48A5F0 !important
+  border-color: #48A5F0 !important
+
+.slyder-a__bullets__item
+  background-color: rgba(72, 165, 240, .35)
+
+//TEMA 2
+.tarjeta--verde
+  background-color: #E1F1FD !important
+
+.tarjeta--verde2
+  background-color: rgba(162, 230, 176, .2) !important
+
+.tarjeta.color-secundario--borde
+  background-color: rgba(72, 165, 240, .15)
+  border: solid 4px rgba(19, 138, 248, .15) !important
+
+.tabs-a__tab
+  background-color: #6CB5F0
+
+.tarjeta.color-secundario
+  background-color: #D2E1F1 !important
+
+//TEMA 3
+.tarjeta--azul
+  background-color: #E8F3FC
+
+.tarjeta--azul2
+  background-color: #D2E1F1
+
+.acordion__activo
+  background-color: #E8F3FC
+
+//TEMA 4
+.tarjeta.color-secundario
+  background-color: #48A5F0 !important
+
+.cta
+  background-color: #7EC1F7 !important
+
+.tarjeta-slide__contenedor
+  height: 326.8px
+
+.ctsf
+  background-color: rgba(19, 138, 248, .25)
+
+.slyder-f__btn
+  i
+    color: #3D5075 !important
+
+.tarjeta.ctsf
+  height: 388.64px

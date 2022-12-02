@@ -2,13 +2,29 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 24%
+    right: 0%
+    width: 140%
+    z-index: 0
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
     right: 30%
+  &-3
+    animation: spin 5s infinite linear
+    top: 78%
+    right: 35%
+    width: 29%
+    transform-origin: 180%
+    z-index: 3
+
+.imagen-banner
+    position: absolute
+    top: 17%
+    right: 26%
+    z-index: 1
+    margin-left: 20%
 
 @keyframes float1
   0%
@@ -17,6 +33,24 @@
   100%
     transform: translateY(0px)
 
+@keyframes spin
+  0%
+    transform: rotate(0deg)
+  //25%
+    //transform: rotate(-45deg)
+  // 50%
+  //   transform: rotate(90deg)
+  // 75%
+  //   transform: rotate(270deg)
+  // 100%
+  //   transform: rotate(360deg)
+
+  // 0%
+  //   transform: rotate(359deg)
+
+  // 100%
+  //   transform: rotate(0deg)
+
 @media screen and (max-width:767px)
   figure
     img
@@ -24,7 +58,8 @@
       margin: 1rem auto
 
 .banner-principal__img
-  width: auto
+  background-size: 500px 400px
+  width: 40%
 
 // COLORES CORTOS
 .cp

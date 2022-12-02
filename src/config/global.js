@@ -4,15 +4,15 @@ export default {
       'Fundamentos para fabricación de piezas en máquinas CNC',
     descripcionCurso:
       'El presente componente se fundamenta en la fabricación de piezas con máquinas de control numérico CNC, comenzando por la normatividad en las actividades propias de las funciones de los operarios hasta el conocimiento y alistamiento de las máquinas de control numérico CNC.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner.png'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['imagen-banner'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],

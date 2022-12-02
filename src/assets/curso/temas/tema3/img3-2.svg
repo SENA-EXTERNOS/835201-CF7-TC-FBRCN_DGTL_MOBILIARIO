@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="432" height="418" viewBox="0 0 432 418">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="198" height="198" viewBox="0 0 198 198">
   <defs>
-    <filter id="Elipse_4971" x="108" y="42" width="198" height="198" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_4971" x="0" y="0" width="198" height="198" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -11,12 +11,10 @@
       <rect id="Rectángulo_45975" data-name="Rectángulo 45975" width="124.4" height="105.447" transform="translate(0 0)" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Grupo_179288" data-name="Grupo 179288" transform="translate(-180 -545)">
-    <rect id="Background" width="400" height="418" rx="20" transform="translate(180 545)" fill="#bfe0fa"/>
-    <g transform="matrix(1, 0, 0, 1, 180, 545)" filter="url(#Elipse_4971)">
-      <circle id="Elipse_4971-2" data-name="Elipse 4971" cx="90" cy="90" r="90" transform="translate(117 48)" fill="#fff"/>
+  <g id="Grupo_179255" data-name="Grupo 179255" transform="translate(-288 -587)">
+    <g transform="matrix(1, 0, 0, 1, 288, 587)" filter="url(#Elipse_4971)">
+      <circle id="Elipse_4971-2" data-name="Elipse 4971" cx="90" cy="90" r="90" transform="translate(9 6)" fill="#fff"/>
     </g>
-    <text id="What_do_you_mean_by" data-name="What do you mean by" transform="translate(380 831)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-59.185" y="0">Primer grupo</tspan></text>
     <g id="Grupo_146455" data-name="Grupo 146455" transform="translate(325 630)">
       <g id="Grupo_146454" data-name="Grupo 146454" clip-path="url(#clip-path)">
         <path id="Trazado_208624" data-name="Trazado 208624" d="M123.406,62.961H0l7.1-9.934A47.8,47.8,0,0,1,95.873,23.661h8.834V52.388l14.886,1.2.316.26c2.79,2.293,4.3,4.431,4.474,6.356a3.136,3.136,0,0,1-.585,2.288ZM5.073,60.352H121.765c-.1-.7-.68-2.085-3.2-4.226L102.1,54.794V26.27h-7.74l-.374-.663A45.182,45.182,0,0,0,9.751,53.22l.061.5Z"/>
@@ -33,6 +31,5 @@
         <rect id="Rectángulo_45974" data-name="Rectángulo 45974" width="2.609" height="4.339" transform="translate(52.051 95.463)"/>
       </g>
     </g>
-    <text id="Preparación_del_operario." data-name="Preparación del operario." transform="translate(381 884)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-89" y="17">Preparación del operario.</tspan></text>
   </g>
 </svg>

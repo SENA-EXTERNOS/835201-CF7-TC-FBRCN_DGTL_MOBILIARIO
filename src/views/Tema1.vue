@@ -12,20 +12,33 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img1-1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Antes de comenzar a mecanizar con las máquinas herramientas controladas numéricamente por computador CNC, es muy importante conocer, comprender y aplicar una serie de normas, en donde se encuentran los requisitos de estricto cumplimiento; con el fin de evitar situaciones de riesgo no solo para la integridad de las personas, sino también para la maquinaria, equipos y entorno de trabajo. Es decir, para todo el proceso.
+        p.mb-0 Antes de comenzar a mecanizar con las máquinas herramientas controladas numéricamente por computador CNC, es muy importante conocer, comprender y aplicar una serie de 
+          b normas
+          |, en donde se encuentran los 
+          b requisitos 
+          |de estricto cumplimiento; con el fin de evitar situaciones de riesgo no solo para la integridad de las personas, sino también para la maquinaria, equipos y entorno de trabajo. Es decir, para todo el proceso.
 
     p.mb-5(data-aos="fade-right") Siempre es necesario mantener el control de riesgos en estas áreas:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/temas/tema1/img1-2.svg', alt='Personal')
-      .col-lg-4(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img1-3.svg', alt='Maquinaria')
-      .col-lg-4(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/img1-4.svg', alt='Lugar de trabajo')
+      .col-lg-4.mb-sm-4(data-aos="fade-left")
+        .tarjeta.cft31.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/img1-2.svg', alt='Personal')
+          h4.text-center Personal que labora y ejecuta las máquinas
+      .col-lg-4.mb-sm-4(data-aos="zoom-in")
+        .tarjeta.cft32.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/img1-3.svg', alt='Maquinaria')
+          h4.text-center Maquinaria
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
+        .tarjeta.cft31.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/img1-4.svg', alt='Fábrica')
+          h4.text-center Lugar de trabajo
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="flip-up")
@@ -52,7 +65,7 @@
                 p
                   b Enlace web. 
                   |Seguridad y salud en el trabajo.
-          .col-md-5
+          .col-md-5.order-sm-first.order-lg-last.mb-sm-4
             figure
               img(src='@/assets/curso/temas/tema1/img1-5.svg', alt='ISO 45001')
         .row.justify-content-center.align-items-center
@@ -64,7 +77,7 @@
             p El empleador o contratante debe aplicar una metodología que sea sistemática, que tenga alcance sobre todos los procesos y actividades rutinarias y no rutinarias internas o externas, máquinas y equipos, todos los centros de trabajo y todos los trabajadores independientemente de su forma de contratación y vinculación, que le permita identificar los peligros y evaluar los riesgos en seguridad y salud en el trabajo, con el fin que pueda priorizarlos y establecer los controles necesarios, realizando mediciones ambientales cuando se requiera.
             p Esto quiere decir que, de acuerdo con cada espacio de trabajo y sus características propias, se deben crear 
               b mecanismos para detectar los potenciales peligros y evaluar los riesgos, para establecer la forma de controlarlos.
-          .col-md-5
+          .col-md-5.order-sm-first.order-lg-last.mb-sm-4
             figure
               img(src='@/assets/curso/temas/tema1/img1-6.svg', alt='Decreto')
         .row.justify-content-center.align-items-center
@@ -81,7 +94,7 @@
                 p
                   b Enlace web. 
                   |Guías y normas técnicas Colombianas.
-          .col-md-5
+          .col-md-5.order-sm-first.order-lg-last.mb-sm-4
             figure
               img(src='@/assets/curso/temas/tema1/img1-7.svg', alt='ICONTEC')
 

@@ -8,7 +8,7 @@
       h1 Preparación para el mecanizado CNC
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2(data-aos="fade-right")
+      .col-lg-2.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema3/img3-1.svg', alt='Máquina')
       .col-lg-10(data-aos="fade-left")
@@ -16,16 +16,28 @@
         p.mb-0 Estas condiciones se muestran en tres grupos:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/temas/tema3/img3-2.svg', alt='Preparación operario')
-      .col-lg-4(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema3/img3-3.svg', alt='Rueda dentada')
-      .col-lg-4(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema3/img3-4.svg', alt='Martillo')
-
+      .col-lg-4.mb-sm-4(data-aos="fade-left")
+        .tarjeta.cft31.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema3/img3-2.svg', alt='Preparación operario')
+          h4.text-center Primer grupo
+          p.text-center Preparación del operario.
+      .col-lg-4.mb-sm-4(data-aos="zoom-in")
+        .tarjeta.cft32.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema3/img3-3.svg', alt='Rueda dentada')
+          h4.text-center Segundo grupo
+          p.text-center Preparación del espacio de trabajo.
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
+        .tarjeta.cft31.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema3/img3-4.svg', alt='Martillo')
+          h4.text-center Tercer grupo
+          p.text-center Preparación de la máquina herramienta controlada numéricamente por computador CNC.
+        
     Separador
 
     #t_3_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
@@ -49,15 +61,26 @@
     p.mb-5(data-aos="fade-right") El operario también debe contar con conocimientos en áreas como:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos="fade-left")
-        figure
+      .col-lg-4.mb-sm-4(data-aos="fade-left")
+        .tarjeta-avatar
           img(src='@/assets/curso/temas/tema3/img3-6.svg', alt='Trigonometría')
-      .col-lg-4(data-aos="zoom-in")
-        figure
+          .tarjeta.cfta.w-100
+            .text-center.mt-4
+              h4 Álgebra y trigonometría
+      .col-lg-4.mb-sm-4(data-aos="zoom-in")
+        .tarjeta-avatar
           img(src='@/assets/curso/temas/tema3/img3-7.svg', alt='Planos')
+          .tarjeta.cfta.w-100
+            .text-center.mt-4
+              h4 Dibujo técnico o interpretación de planos
       .col-lg-4(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema3/img3-8.svg', alt='Lugar de trabajo')
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/img3-8.svg', alt='Manual')
+          .tarjeta.cfta.w-100
+            .text-center.mt-4
+              h4 Metrología
+
+    p.mb-5(data-aos="fade-down") Las actividades que se desarrollan como preparación para un mecanizado con máquinas herramientas controladas numéricamente por computador CNC, se pueden resumir en las siguientes fases:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -65,7 +88,7 @@
           p.text-small(numero="1" titulo="Fase 1") Se comienza con la interpretación y el entendimiento de las piezas o productos que se desean obtener.
           p.text-small(numero="2" titulo="Fase 2") Al conocer la pieza que se va a desarrollar, se sabrá cuáles operaciones realizará.
           p.text-small(numero="3" titulo="Fase 3") Cuando se saben las operaciones a realizar, se pueden interpretar los riesgos a los que se va a exponer y, así determinar cuáles elementos de protección personal se deben portar.
-      .col-lg-4
+      .col-lg-4.order-sm-first.order-lg-last.mb-sm-4
         figure
           img(src='@/assets/curso/temas/tema3/img3-9.png', alt='Operarios')
 
@@ -90,11 +113,11 @@
     p.mb-5(data-aos="fade-right") Las principales condiciones para el buen funcionamiento del espacio de trabajo son:
 
     .row.justify-content-center.mb-5
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema3/img3-11.png', alt='Equipos')
       .col-lg-8(data-aos="zoom-in")
-        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--blanca")
           .row(titulo="Orden y aseo")
             .col-md-12.mb-4.mb-md-0
               p El orden y aseo, cada elemento en su lugar. Esto influye directamente, no solo en la movilidad del operador, sino también en la seguridad física.
@@ -142,7 +165,7 @@
           .row(titulo="Nivel de los tanques")
             .col-md-12.mb-4.mb-md-0
               p El nivel de los tanques o de los recipientes del sistema de refrigeración se debe mantener al máximo, ya que, en todo momento durante el mecanizado, es fundamental que se surta del líquido que evitará que el material de trabajo o las herramientas se quemen o sufran daños en su afilado. También para que, durante el arranque de viruta, el corte sea lubricado. 
-      .col-lg-4(data-aos="fade-left")
+      .col-lg-4.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema3/img3-12.png', alt='Botones de maquinaria')
 </template>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="330.137" viewBox="0 0 400 330.137">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="198" height="198" viewBox="0 0 198 198">
   <defs>
-    <filter id="Elipse_4968" x="96" y="42" width="198" height="198" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_4968" x="0" y="0" width="198" height="198" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -8,12 +8,10 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_179257" data-name="Grupo 179257" transform="translate(-1020 -837)">
-    <rect id="Background" width="400" height="330.137" rx="20" transform="translate(1020 837)" fill="#bfe0fa"/>
-    <g transform="matrix(1, 0, 0, 1, 1020, 837)" filter="url(#Elipse_4968)">
-      <circle id="Elipse_4968-2" data-name="Elipse 4968" cx="90" cy="90" r="90" transform="translate(105 48)" fill="#fff"/>
+  <g id="Grupo_179260" data-name="Grupo 179260" transform="translate(-1116 -879)">
+    <g transform="matrix(1, 0, 0, 1, 1116, 879)" filter="url(#Elipse_4968)">
+      <circle id="Elipse_4968-2" data-name="Elipse 4968" cx="90" cy="90" r="90" transform="translate(9 6)" fill="#fff"/>
     </g>
-    <text id="What_do_you_mean_by" data-name="What do you mean by" transform="translate(1220 1123)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-73.164" y="0">Lugar de trabajo</tspan></text>
     <g id="fabrica" transform="translate(1163 922.998)">
       <g id="Grupo_179106" data-name="Grupo 179106" transform="translate(7.691 1.54)">
         <g id="Grupo_179104" data-name="Grupo 179104">

@@ -8,7 +8,7 @@
       h1 Tipos de máquinas CNC
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5(data-aos="fade-right")
+      .col-lg-5.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/img5-1.svg' alt='Operarios con máquina')
       .col-lg-7.rectanguloid(data-aos="fade-left")
@@ -24,15 +24,15 @@
     h3(data-aos="fade-right") Ventajas y desventajas de las máquinas herramientas CNC
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2(data-aos="fade-right")
+      .col-lg-2.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/img5-2.svg' alt='Ventajas y desventajas')
-      .col-lg-10(data-aos="fade-left")
+      .col-lg-10.col-sm-10(data-aos="fade-left")
         p Los procesos con las máquinas herramientas controladas numéricamente por el computador CNC, han venido tomando mucha fuerza en el campo de la manufactura. Sin embargo, el uso de esta tecnología trae consigo una serie de ventajas y de desventajas, siendo las primeras más numerosas evidentemente.
         p.mb-0 A continuación, se pueden conocer estas ventajas y desventajas:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
-      .col-lg-10
+      .col-lg-10.col-sm-9
         ImagenInfografica.color-primario.mb-5
           template(v-slot:imagen)
             figure

@@ -41,35 +41,35 @@
 
     p.mb-5(data-aos="fade-left") Dependiendo el ámbito o campo donde se apliquen o desempeñen, se pueden encontrar diferentes tipos de planos técnicos. Los tres grupos principales son:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
-        .tarjeta.tarjeta-slide.izquierda.cta(@mouseover="indicadorTarjetaSlide = false")
-                .indicador--hover(v-if="indicadorTarjetaSlide")
-                .tarjeta-slide__contenedor
-                  .tarjeta-slide__contenido.p-4.p-xl-5
-                    h2 Dibujo arquitectónico
-                    p Estos planos son usados en la representación gráfica de proyectos y 
-                      b construcciones arquitectónicas 
-                      |de todo tipo. 
-                  .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img4-4.png')})`}")
-      .col-lg-4
-        .tarjeta.tarjeta-slide.arriba.cta(@mouseover="indicadorTarjetaSlide = false")
-                .indicador--hover(v-if="indicadorTarjetaSlide")
-                .tarjeta-slide__contenedor
-                  .tarjeta-slide__contenido.p-4.p-xl-5
-                    h2 Dibujo topográfico
-                    p Los planos topográficos son utilizados para representar replanteos sobre 
-                      b terrenos para obras civiles
-                      |, representan un terreno en sus tres dimensiones espaciales mediante puntos, curvas, coordenadas, etc.
-                  .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img4-5.png')})`}")
-      .col-lg-4
-        .tarjeta.tarjeta-slide.derecha.cta(@mouseover="indicadorTarjetaSlide = false")
-                .indicador--hover(v-if="indicadorTarjetaSlide")
-                .tarjeta-slide__contenedor
-                  .tarjeta-slide__contenido.p-4.p-xl-5
-                    h2 Dibujo industrial
-                    p Los planos para el diseño y dibujo industrial, representan instalaciones, conjuntos, mecanismos o elementos de aplicación mecánico, eléctrico, electrónico, térmico, energético, etc.
-                  .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img4-6.png')})`}")
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema4/img4-4.png", alt="Dibujo arquitectónico")
+          .crd_hover_txt--body.w-100
+            h4.mb-3.text-center Dibujo arquitectónico
+            p.mb-0 Estos planos son usados en la representación gráfica de proyectos y 
+              b construcciones arquitectónicas 
+              |de todo tipo.
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-up")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema4/img4-5.png", alt="Plano topográfico")
+          .crd_hover_txt--body.w-100
+            h4.mb-3.text-center Dibujo topográfico
+            p.mb-0 Los planos topográficos son utilizados para representar replanteos sobre 
+              b terrenos para obras civiles
+              |, representan un terreno en sus tres dimensiones espaciales mediante puntos, curvas, coordenadas, etc.
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-right")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema4/img4-6.png", alt="Dibujo industrial")
+          .crd_hover_txt--body.w-100
+            h4.mb-3.text-center Dibujo industrial
+            p.mb-0 Los planos para el diseño y dibujo industrial, representan instalaciones, conjuntos, mecanismos o elementos de aplicación mecánico, eléctrico, electrónico, térmico, energético, etc.
 
     h3(data-aos="fade-right") Escalas
 
@@ -88,15 +88,24 @@
     p.mb-5 Los tipos de escala que se emplean en dibujo son los siguientes:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/temas/tema4/img4-8.svg', alt='Escala de reducción')
-      .col-lg-4(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema4/img4-9.svg', alt='Escala de ampliación')
-      .col-lg-4(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema4/img4-10.svg', alt='Escala real')
+      .col-lg-3.col-sm-8.mb-sm-4(data-aos="fade-left")
+        .tarjeta.cft4.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema4/img8.svg', alt='Escala reducida')
+          h4.text-center Escala de reducción
+      .col-lg-3.col-sm-8.mb-sm-4(data-aos="zoom-in")
+        .tarjeta.cft4.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema4/img9.svg', alt='Escala ampliada')
+          h4.text-center Escala de ampliación
+      .col-lg-3.col-sm-8.mb-sm-4(data-aos="fade-right")
+        .tarjeta.cft4.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema4/img10.svg', alt='Escala real')
+          h4.text-center Escala real (1:1)
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="flip-up")
@@ -126,7 +135,7 @@
           b sistema europeo ISO E 
           |y el 
           b sistema americano ISO A.
-      .col-lg-5(data-aos="fade-left")
+      .col-lg-5.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img4-11.png', alt='Revisando planos')
 
@@ -198,7 +207,7 @@
     p.mb-5(data-aos="fade-right") El objetivo principal del acotado es representar e indicar las dimensiones de los objetos y también anotar los aspectos importantes para la comprensión total del objeto o proyecto, sin dar espacio para errores o malas interpretaciones. 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema4/img4-18.png', alt='Persona con planos')
       .col-lg-8(data-aos="fade-left")

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="330.378" viewBox="0 0 400 330.378">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="198" height="198" viewBox="0 0 198 198">
   <defs>
-    <filter id="Elipse_4974" x="108" y="0" width="198" height="198" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_4974" x="0" y="0" width="198" height="198" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -8,12 +8,10 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_179273" data-name="Grupo 179273" transform="translate(-180 -1745)">
-    <rect id="Background" width="400" height="240" rx="20" transform="translate(180 1835.378)" fill="#a2e6b0" opacity="0.4"/>
-    <g transform="matrix(1, 0, 0, 1, 180, 1745)" filter="url(#Elipse_4974)">
-      <circle id="Elipse_4974-2" data-name="Elipse 4974" cx="90" cy="90" r="90" transform="translate(117 6)" fill="#48a5f0"/>
+  <g id="Grupo_179252" data-name="Grupo 179252" transform="translate(-288 -1745)">
+    <g transform="matrix(1, 0, 0, 1, 288, 1745)" filter="url(#Elipse_4974)">
+      <circle id="Elipse_4974-2" data-name="Elipse 4974" cx="90" cy="90" r="90" transform="translate(9 6)" fill="#48a5f0"/>
     </g>
-    <text id="What_do_you_mean_by" data-name="What do you mean by" transform="translate(380 2005)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-106.47" y="0">Álgebra y trigonometría</tspan></text>
     <g id="grafico" transform="translate(339 1793)">
       <path id="Trazado_268215" data-name="Trazado 268215" d="M51.091,45.414V0H45.414V17.594C40.767,6.793,33.654,0,25.545,0,11.726,0,.8,19.728.043,45.414H0v5.677H45.414V96.5h5.677V78.91C55.738,89.712,62.851,96.5,70.959,96.5c13.819,0,24.749-19.728,25.5-45.414H96.5V45.414Zm-39.063-28C15.756,9.953,20.683,5.677,25.545,5.677s9.79,4.276,13.517,11.732c3.762,7.525,5.97,17.382,6.3,28H28.384V39.737H22.707v5.677H5.723c.335-10.623,2.543-20.48,6.3-28ZM84.477,79.1c-3.728,7.456-8.655,11.732-13.517,11.732S61.17,86.552,57.442,79.1c-3.762-7.525-5.97-17.382-6.3-28H68.121v5.677H73.8V51.091H90.782C90.447,61.714,88.239,71.571,84.477,79.1Z" transform="translate(0)" fill="#12263f"/>
       <path id="Trazado_268216" data-name="Trazado 268216" d="M360,330h5.677v8.515H360Z" transform="translate(-291.879 -267.556)" fill="#12263f"/>

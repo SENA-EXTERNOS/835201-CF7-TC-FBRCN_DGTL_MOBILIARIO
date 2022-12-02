@@ -31,10 +31,10 @@
       h2 2.1 Antes de mecanizar
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2(data-aos="fade-right")
+      .col-lg-2.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-2.svg', alt='Operario')
-      .col-lg-10(data-aos="fade-left")
+      .col-lg-10.col-sm-10(data-aos="fade-left")
         p Es importante tener en cuenta que los riesgos se presentan, no solo a la hora de estar en ejecución, las máquinas herramientas controladas numéricamente por computador CNC, algunos peligros de accidentes se pueden evitar o gestionar previamente, al inicio del mecanizado. Es decir, en las acciones u operaciones preparatorias.
         p.mb-0 A continuación, se presentan algunas de las normas principales que se deben tener en cuenta antes de mecanizar:
 
@@ -204,7 +204,7 @@
       h2 2.3  Elementos de protección personal EPP
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-20.svg', alt='Operario usando maquinaria')
       .col-lg-8(data-aos="fade-left")
@@ -285,7 +285,7 @@
     h3.mb-4(data-aos="fade-right") Riesgos en el mecanizado CNC
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2(data-aos="fade-right")
+      .col-lg-2.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-27.svg', alt='Máquina')
       .col-lg-10(data-aos="fade-left")
@@ -297,34 +297,28 @@
       br
       em  Riesgos en el mecanizado CNC
 
-    ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in")
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema2/img2-28.svg', alt='Riesgos en mecanizado CNC')
-      .tarjeta.color-secundario.p-3(x="30%" y="15%" numero="+")
-        .h5.mb-2 Riesgo mecánico
-        p Las máquinas herramientas controladas numéricamente por computador CNC, funcionan gracias a una cantidad de sistemas mecánicos que se mantienen en diferentes movimientos como lineales, rotacionales etc. Esto genera el peligro de lesiones graves en extremidades como: cortes o cizallamiento, aplastamiento, atrapamiento, punzonado, abrasión o fricción, lavado con fluido a presión.
-      .tarjeta.color-secundario.p-3(x="30%" y="37%" numero="+")
-        .h5.mb-2 Riesgo eléctrico 
-        p Los componentes eléctricos de las máquinas herramientas controladas numéricamente por computador CNC, requieren que sean alimentados con una cantidad importante de energía eléctrica. Esto hace que el peligro de electrocución sea inminente provocando lesiones, quemaduras o hasta la muerte.
-      .tarjeta.color-secundario.p-3(x="34%" y="55%" numero="+")
-        .h5.mb-2 Riesgo térmico
-        p Las operaciones en las máquinas herramientas controladas numéricamente por computador CNC, generan elevadas temperaturas, gracias a la naturaleza de su funcionamiento, puede ser por el arranque de viruta o por el flujo del plasma para corte. Esto implica que el peligro de quemaduras esté presente, con un nivel de riesgo elevado por el contacto con estos elementos.
-      .tarjeta.color-secundario.p-3(x="44%" y="67%" numero="+")
-        .h5.mb-2 Riesgo por ruido
-        p Aunque las máquinas herramientas controladas numéricamente por computador CNC, tengan sistemas o elementos de mitigación del ruido, este se presenta tan fuerte, que el riesgo de la pérdida de la audición, la fatiga, el estrés y otras perturbaciones, debido a la exposición prolongada o continua, estén presentes en todo momento. Hay que considerar que este peligro abarca, no solo a los operadores de las máquinas, sino también a su entorno de trabajo.
-      .tarjeta.color-secundario.p-3(x="57%" y="67%" numero="+")
-        .h5.mb-2 Riesgo por vibraciones
-        p La fricción entre materiales de trabajo con alta dureza, con las herramientas de corte también duras, hace que las vibraciones, así como el ruido, sean constantes. Entonces el peligro de lesiones musculares, neurológicas y vasculares, se presenta al ejecutar las operaciones en estas máquinas herramientas controladas numéricamente por computador CNC.
-      .tarjeta.color-secundario.p-3(x="66%" y="55%" numero="+")
-        .h5.mb-2 Riesgo por radiación
-        p Generalmente en los procesos con máquinas herramientas controladas numéricamente por computador CNC, debido a los componentes generadores de radioactividad, se presentan radiaciones ionizantes y no ionizantes. También por la exposición a procesos cercanos como soldaduras o impresión ultravioleta.
-      .tarjeta.color-secundario.p-3(x="71%" y="37%" numero="+")
-        .h5.mb-2 Riesgo por exposición a sustancias peligrosas
-        p En ocasiones en el mecanizado con máquinas herramientas controladas numéricamente por computador CNC, se procesan o utilizan materiales que despiden o emiten gases o polvos con sustancias nocivas para la salud de los operarios. Esto hace que el riesgo de inhalación o de contacto con ellos esté presente.
-      .tarjeta.color-secundario.p-3(x="70%" y="15%" numero="+")
-        .h5.mb-2 Riesgo ergonómico
-        p El operador de las máquinas herramientas controladas numéricamente por computador CNC, puede adoptar posiciones incorrectas en el momento de ejecutar las diferentes tareas o actividades. Esto puede generar lesiones físicas graves o permanentes.
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
+      .col-lg-11.col-sm-8
+        ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in")
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema2/img2-28.svg', alt='Riesgos en mecanizado CNC')
+          .tarjeta.color-secundario.p-3(x="30%" y="15%" numero="+")
+            p Las máquinas herramientas controladas numéricamente por computador CNC, funcionan gracias a una cantidad de sistemas mecánicos que se mantienen en diferentes movimientos como lineales, rotacionales etc. Esto genera el peligro de lesiones graves en extremidades como: cortes o cizallamiento, aplastamiento, atrapamiento, punzonado, abrasión o fricción, lavado con fluido a presión.
+          .tarjeta.color-secundario.p-3(x="30%" y="37%" numero="+")
+            p Los componentes eléctricos de las máquinas herramientas controladas numéricamente por computador CNC, requieren que sean alimentados con una cantidad importante de energía eléctrica. Esto hace que el peligro de electrocución sea inminente provocando lesiones, quemaduras o hasta la muerte.
+          .tarjeta.color-secundario.p-3(x="34%" y="55%" numero="+")
+            p Las operaciones en las máquinas herramientas controladas numéricamente por computador CNC, generan elevadas temperaturas, gracias a la naturaleza de su funcionamiento, puede ser por el arranque de viruta o por el flujo del plasma para corte. Esto implica que el peligro de quemaduras esté presente, con un nivel de riesgo elevado por el contacto con estos elementos.
+          .tarjeta.color-secundario.p-3(x="44%" y="67%" numero="+")
+            p Aunque las máquinas herramientas controladas numéricamente por computador CNC, tengan sistemas o elementos de mitigación del ruido, este se presenta tan fuerte, que el riesgo de la pérdida de la audición, la fatiga, el estrés y otras perturbaciones, debido a la exposición prolongada o continua, estén presentes en todo momento. Hay que considerar que este peligro abarca, no solo a los operadores de las máquinas, sino también a su entorno de trabajo.
+          .tarjeta.color-secundario.p-3(x="57%" y="67%" numero="+")
+            p La fricción entre materiales de trabajo con alta dureza, con las herramientas de corte también duras, hace que las vibraciones, así como el ruido, sean constantes. Entonces el peligro de lesiones musculares, neurológicas y vasculares, se presenta al ejecutar las operaciones en estas máquinas herramientas controladas numéricamente por computador CNC.
+          .tarjeta.color-secundario.p-3(x="66%" y="55%" numero="+")
+            p Generalmente en los procesos con máquinas herramientas controladas numéricamente por computador CNC, debido a los componentes generadores de radioactividad, se presentan radiaciones ionizantes y no ionizantes. También por la exposición a procesos cercanos como soldaduras o impresión ultravioleta.
+          .tarjeta.color-secundario.p-3(x="71%" y="37%" numero="+")
+            p En ocasiones en el mecanizado con máquinas herramientas controladas numéricamente por computador CNC, se procesan o utilizan materiales que despiden o emiten gases o polvos con sustancias nocivas para la salud de los operarios. Esto hace que el riesgo de inhalación o de contacto con ellos esté presente.
+          .tarjeta.color-secundario.p-3(x="70%" y="15%" numero="+")
+            p El operador de las máquinas herramientas controladas numéricamente por computador CNC, puede adoptar posiciones incorrectas en el momento de ejecutar las diferentes tareas o actividades. Esto puede generar lesiones físicas graves o permanentes.
 
 </template>
 

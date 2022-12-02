@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="418" viewBox="0 0 485 418">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="198" height="198" viewBox="0 0 198 198">
   <defs>
-    <filter id="Elipse_4969" x="96" y="42" width="198" height="198" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_4969" x="0" y="0" width="198" height="198" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -11,12 +11,10 @@
       <rect id="Rectángulo_45980" data-name="Rectángulo 45980" width="84.353" height="109.621" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Grupo_179290" data-name="Grupo 179290" transform="translate(-1020 -545)">
-    <rect id="Background" width="400" height="418" rx="20" transform="translate(1020 545)" fill="#bfe0fa"/>
-    <g transform="matrix(1, 0, 0, 1, 1020, 545)" filter="url(#Elipse_4969)">
-      <circle id="Elipse_4969-2" data-name="Elipse 4969" cx="90" cy="90" r="90" transform="translate(105 48)" fill="#fff"/>
+  <g id="Grupo_179257" data-name="Grupo 179257" transform="translate(-1116 -587)">
+    <g transform="matrix(1, 0, 0, 1, 1116, 587)" filter="url(#Elipse_4969)">
+      <circle id="Elipse_4969-2" data-name="Elipse 4969" cx="90" cy="90" r="90" transform="translate(9 6)" fill="#fff"/>
     </g>
-    <text id="What_do_you_mean_by" data-name="What do you mean by" transform="translate(1220 831)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-58.14" y="0">Tercer grupo</tspan></text>
     <g id="Grupo_146460" data-name="Grupo 146460" transform="translate(1173 628)">
       <rect id="Rectángulo_45977" data-name="Rectángulo 45977" width="16.165" height="42.055" transform="translate(1.305 51.287)" fill="#9fe3ad"/>
       <path id="Trazado_208638" data-name="Trazado 208638" d="M2.609,52.592H16.165V92.037H2.609ZM0,94.647H18.774V49.982H0Z"/>
@@ -47,6 +45,5 @@
         </g>
       </g>
     </g>
-    <text id="Preparación_de_la_máquina_herramienta_controlada_numéricamente_por_computador_CNC." data-name="Preparación de la máquina herramienta controlada numéricamente por computador CNC." transform="translate(1216 860)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-139.656" y="17">Preparación de la máquina herramienta </tspan><tspan x="-109.621" y="41">controlada numéricamente por </tspan><tspan x="-63.609" y="65">computador CNC.</tspan></text>
   </g>
 </svg>

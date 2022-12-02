@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="330.137" viewBox="0 0 400 330.137">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="198" height="198" viewBox="0 0 198 198">
   <defs>
-    <filter id="Elipse_4967" x="101" y="42" width="198" height="198" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_4967" x="0" y="0" width="198" height="198" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -11,10 +11,9 @@
       <rect id="Rectángulo_294514" data-name="Rectángulo 294514" width="120.209" height="108" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Grupo_179256" data-name="Grupo 179256" transform="translate(-600 -837)">
-    <rect id="Rectángulo_46217" data-name="Rectángulo 46217" width="400" height="330.137" rx="20" transform="translate(600 837)" fill="#cfbdb0" opacity="0.35"/>
-    <g transform="matrix(1, 0, 0, 1, 600, 837)" filter="url(#Elipse_4967)">
-      <circle id="Elipse_4967-2" data-name="Elipse 4967" cx="90" cy="90" r="90" transform="translate(110 48)" fill="#fff"/>
+  <g id="Grupo_179259" data-name="Grupo 179259" transform="translate(-701 -879)">
+    <g transform="matrix(1, 0, 0, 1, 701, 879)" filter="url(#Elipse_4967)">
+      <circle id="Elipse_4967-2" data-name="Elipse 4967" cx="90" cy="90" r="90" transform="translate(9 6)" fill="#fff"/>
     </g>
     <g id="Grupo_175327" data-name="Grupo 175327" transform="translate(740 921)">
       <g id="Grupo_175327-2" data-name="Grupo 175327" clip-path="url(#clip-path)">
@@ -41,6 +40,5 @@
         <path id="Trazado_265900" data-name="Trazado 265900" d="M228.348,4.7h0A2.348,2.348,0,1,0,226,2.348,2.347,2.347,0,0,0,228.35,4.7" transform="translate(-172.939)"/>
       </g>
     </g>
-    <text id="What_do_you_mean_by" data-name="What do you mean by" transform="translate(800 1123)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-50.64" y="0">Maquinaria</tspan></text>
   </g>
 </svg>

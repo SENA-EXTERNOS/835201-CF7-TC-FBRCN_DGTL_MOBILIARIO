@@ -113,7 +113,7 @@
       .col-lg-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-12.svg', alt='Operarios')
-      .col-lg-8.rectanguloid.p-4(data-aos="fade-left")
+      .col-lg-8.p-4(data-aos="fade-left")
         p.mb-0 En esta fase del proceso, se hace más evidente el riesgo de accidentes: en ella, entran en funcionamiento las máquinas y se ponen en marcha. El operario y todo el personal deben prestar toda la atención a sus actividades, debido a que estas máquinas funcionan mediante sistemas y mecanismos que elevan los riesgos tanto <b>mecánicos</b> como <b>eléctricos,</b> además de los<b> ergonómicos</b> y otros que dependen de las características propias de cada puesto de trabajo. 
 
     p.mb-5(data-aos="fade-right") Algunas normas y reglas que debe tener en cuenta durante el mecanizado con máquinas CNC son:

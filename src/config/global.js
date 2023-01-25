@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Fundamentos para fabricación de piezas en máquinas CNC',
     descripcionCurso:
-      'El presente componente se fundamenta en la fabricación de piezas con máquinas de control numérico CNC, comenzando por la normatividad en las actividades propias de las funciones de los operarios hasta el conocimiento y alistamiento de las máquinas de control numérico CNC.',
+      'El presente componente formativo aborda aspectos claves de la fabricación de piezas con máquinas de control numérico CNC, comenzando por la normatividad en las actividades propias de las funciones de los operarios, hasta el conocimiento y alistamiento de las máquinas de control numérico CNC.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal-2.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner.png'),
     imagenesDecorativasBanner: [
@@ -43,26 +43,6 @@ export default {
         numero: '2',
         titulo: 'Protocolos de seguridad en operaciones de mecanizado CNC',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Antes de mecanizar',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Durante el mecanizado',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Elementos de protección personal para el mecanizado',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -70,26 +50,6 @@ export default {
         numero: '3',
         titulo: 'Preparación para el mecanizado CNC',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Preparación del operario',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Preparación del espacio de trabajo',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Preparación de la máquina CNC',
-            hash: 't_3_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
@@ -148,40 +108,33 @@ export default {
   },
   complementario: [
     {
-      tema: 'Seguridad Industrial',
+      tema: 'Protocolos de seguridad en operaciones de mecanizado CNC',
       referencia:
-        'Giraldo, A. (2019). <em>Seguridad Industrial.</em> Ingeniería. Ecoe Ediciones.',
+        'Giraldo, A. (2019). <em>Seguridad Industrial.</em> Ecoe Ediciones.',
       tipo: 'E-Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_elibroELB126454',
     },
+
     {
-      tema: 'Seguridad y Salud en el Trabajo',
+      tema: 'Preparación para el mecanizado CNC',
       referencia:
-        'Giraldo, M. (2022, agosto 12). <em>NTC listado de guías y normas técnicas colombianas de seguridad y salud en el trabajo.</em> SST-Safework. [web].',
-      tipo: 'Web',
-      link:
-        'https://sst-safework.com/ntc-listado-de-guias-y-normas-tecnicas-colombianas-de-seguridad-y-salud-en-el-trabajo/',
-    },
-    {
-      tema: 'Mecanizado CNC',
-      referencia:
-        'Serrano, D., Mejías, F. y Rodríguez, F. (2018). <em>Comprobación y optimización del programa CNC para el mecanizado por arranque de viruta.</em> Ic Editorial.',
+        'Serrano, D., Mejías, F. & Rodríguez, F. (2018).<em> Comprobación y optimización del programa CNC para el mecanizado por arranque de viruta.</em> Ic Editorial.',
       tipo: 'E-Libro',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/42599',
     },
     {
-      tema: 'Seguridad Industrial',
+      tema: 'Protocolos de seguridad en operaciones de mecanizado CNC',
       referencia:
-        'Tenaris Argentina. (2017). <em>12 reglas básicas de seguridad.</em> [Video]. Youtube.',
+        'Tenaris Argentina. (2017). <em>12 reglas básicas de seguridad</em> [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=3Sk6PqEa0ZA',
     },
     {
-      tema: 'Seguridad Industrial',
+      tema: 'Protocolos de seguridad en operaciones de mecanizado CNC',
       referencia:
-        'Yorka, J. (2017). <em>Típicas excusas de seguridad.</em> [Video]. Youtube.',
+        'Yorka, J. (2017). <em>Típicas excusas de seguridad</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=dEDHPnHoqmo',
     },

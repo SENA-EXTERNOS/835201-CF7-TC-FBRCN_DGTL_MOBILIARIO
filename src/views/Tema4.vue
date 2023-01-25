@@ -78,10 +78,7 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema4/img4-7.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Al momento de realizar un plano técnico de un objeto o conjunto de gran tamaño, por ejemplo, un estadio, para dibujarlo a una 
-          b escala real
-          |, se necesitaría un monitor o un papel demasiado grande, o al contrario para realizar el plano técnico de un objeto demasiado pequeño, por ejemplo, el piñón del mecanismo de un reloj, se necesita 
-          b aplicar una escala.
+        p.mb-0 Al momento de realizar un plano técnico de un objeto o conjunto de gran tamaño, como por ejemplo un estadio de fútbol, dibujarlo a una <b>escala real</b> requiere de un monitor o un papel demasiado grande o, por el contrario, para realizar el plano técnico de un objeto demasiado pequeño, como el piñón del mecanismo de un reloj, siempre se necesita <b>aplicar una escala</b>.
 
     p.mb-5 Una escala es la relación entre 
       b las dimensiones dibujadas y las dimensiones reales.
@@ -110,31 +107,16 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="flip-up")
         .cajon.color-acento-contenido.p-4(style="background-color: rgba(207, 189, 176, .25)")
-          p.mb-0 Siendo así, se puede decir que un objeto de gran tamaño, como el estadio, se representó a 
-            b escala 1:100
-            |, significa que un centímetro dibujado en el plano son 100 centímetros en la realidad a esta se le llama 
-            b escala de reducción
-            |. Igualmente, se representó un piñón a escala 5:1, significa que 5 milímetros dibujados en el plano es un milímetro en la realidad, a esta se le llama 
-            b escala de ampliación
-            |. Finalmente, cuando se representan los objetos con las mismas dimensiones en el plano que en la realidad, se dice que es 
-            b escala real 
-            |o 
-            b escala 1:1.
+          p Las<b> escalas</b> se utilizan para reproducir un objeto de un tamaño determinado, en uno igual, más grande o más pequeño sobre un plano; se puede decir entonces que, un objeto de gran tamaño, como el estadio de fútbol, se representó en una escala<b> 1:100</b>; esto significa que un centímetro dibujado en el plano, son 100 centímetros en la realidad; a esto se le llama <b>escala de reducción.</b> 
+          p Igualmente, se representó un piñón a<b> escala 5:1,</b> lo que significa que 5 milímetros dibujados en el plano, equivalen a un milímetro en la realidad; a esto se le llama <b>escala de ampliación. </b>
+          p Finalmente, cuando se representan los objetos con las mismas dimensiones, en el plano y en la realidad, se dice que es<b> escala real </b>o <b>escala 1:1.</b>
 
     h3.mb-3(data-aos="fade-right") Principios generales de representación
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right")
-        p Como se ha mencionado anteriormente, en el dibujo técnico se 
-          b representan gráficamente objetos o proyectos reales
-          |, siguiendo unas 
-          b normas internacionales
-          |. Estas definen que, para representar un objeto en el plano técnico puede hacerse con respecto a la 
-          b representación ortogonal.
-        p.mb-0 Para representar las vistas ortogonales (frontal, superior, inferior, lateral derecha, lateral izquierda y posterior), y dependiendo de la posición del observador con respecto del objeto o del plano donde se proyectan las vistas, hay dos sistemas, el 
-          b sistema europeo ISO E 
-          |y el 
-          b sistema americano ISO A.
+        p En el dibujo técnico, se<b> representan gráficamente objetos o proyectos reales</b>, de acuerdo con unas<b> normas internacionales.</b> Estas definen que, para representar un objeto en el plano técnico, puede ejecutarse con respecto a la representación ortogonal.
+        p Para representar las vistas ortogonales (frontal, superior, inferior, lateral derecha, lateral izquierda y posterior) y, dependiendo de la posición del observador con respecto al objeto o al plano donde se proyectan las vistas, se cuenta con dos sistemas: el <b>sistema europeo ISO E</b> y el <b>sistema americano ISO A.</b>
       .col-lg-5.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img4-11.png', alt='Revisando planos')
@@ -150,8 +132,9 @@
             p Para el sistema 
               b europeo 
               |la pieza se sitúa entre el observador y el plano donde se proyectarán y dibujarán las vistas.
-            p La imagen a continuación muestra el símbolo del sistema ISO E, que, según la norma, en el caso de haberlo usado, lo debe llevar el plano en el rótulo o cajetín.
-            p Símbolo ISO E.
+            p La imagen que se observa, muestra el símbolo del sistema ISO E que, según la norma, en el caso de haberlo usado, lo debe llevar el plano en el rótulo o cajetín.
+            p 
+             b Símbolo ISO E.  
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema4/img4-12.svg', alt='Símbolo ISO E')
@@ -183,7 +166,8 @@
             p Para el sistema 
               b americano 
               |la pieza se sitúa detrás del plano donde se proyectarán y dibujarán las vistas. La imagen a continuación muestra el símbolo del sistema ISO A, que, según la norma, en el caso de haberlo usado, lo debe llevar el plano en el rótulo o cajetín.
-            p Símbolo ISO A.
+            p
+              b Símbolo ISO A.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema4/img4-15.svg', alt='Símbolo ISO A')

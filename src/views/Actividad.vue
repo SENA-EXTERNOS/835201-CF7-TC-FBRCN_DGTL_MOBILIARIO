@@ -11,7 +11,9 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 Fundamentos para fabricación de piezas en máquinas CNC
-        p.mb-4 Apreciado aprendiz, a continuación, se encontrará una actividad didáctica para afianzar los conceptos y aprendizajes del componente de formación Fundamentos para la fabricación de piezas en máquinas CNC. Es recomendable leer con atención cada término y arrástralo hacia la definición que corresponde.
+        p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+        p De acuerdo con la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
+
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

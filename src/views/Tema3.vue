@@ -13,9 +13,9 @@
           img(src='@/assets/curso/temas/tema3/img3-1.svg', alt='Máquina')
       .col-lg-10(data-aos="fade-left")
         p En el momento de mecanizar alguna pieza con las máquinas herramientas controladas numéricamente por computador CNC, se deben presentar ciertas condiciones que producirán el mejor resultado de las operaciones.
-        p.mb-0 Estas condiciones se muestran en tres grupos:
+        p.mb-0 Estas condiciones se acopian en tres grandes grupos:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.d-flex.mb-5
       .col-lg-4.mb-sm-4(data-aos="fade-left")
         .tarjeta.cft31.p-4
           .row.justify-content-center.mb-3
@@ -37,11 +37,10 @@
               img(src='@/assets/curso/temas/tema3/img3-4.svg', alt='Martillo')
           h4.text-center Tercer grupo
           p.text-center Preparación de la máquina herramienta controlada numéricamente por computador CNC.
-        
-    Separador
 
-    #t_3_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2 3.1  Preparación del operario
+    br
+    br
+    h3.mb-4(data-aos='fade-right') Preparación del operario
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
@@ -87,7 +86,7 @@
          LineaTiempoD.color-primario
           p.text-small(numero="1" titulo="Fase 1") Se comienza con la interpretación y el entendimiento de las piezas o productos que se desean obtener.
           p.text-small(numero="2" titulo="Fase 2") Al conocer la pieza que se va a desarrollar, se sabrá cuáles operaciones realizará.
-          p.text-small(numero="3" titulo="Fase 3") Cuando se saben las operaciones a realizar, se pueden interpretar los riesgos a los que se va a exponer y, así determinar cuáles elementos de protección personal se deben portar.
+          p.text-small(numero="3" titulo="Fase 3") Cuando se conocen las operaciones que se van a realizar, se pueden interpretar los riesgos a los que se va a exponer y determinar, entonces, con cuáles elementos de protección personal, se debe proceder a trabajar.
       .col-lg-4.order-sm-first.order-lg-last.mb-sm-4
         figure
           img(src='@/assets/curso/temas/tema3/img3-9.png', alt='Operarios')
@@ -104,12 +103,12 @@
           |. Es necesario que se prevea el tiempo que va durar el mecanizado, ya que se recomienda que en todo momento se estén vigilando los procesos.
         p.mb-0 Debe revisarse que el espacio de trabajo esté en condiciones para mecanizar, la disponibilidad del material o los materiales de trabajo. Así como, el buen funcionamiento de la máquina y la compatibilidad del archivo.
 
-    Separador
+ 
 
-    #t_3_2.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2 3.2 Preparación del espacio de trabajo
+    
+    h3.mb-4(data-aos='fade-right') Preparación del espacio de trabajo
 
-    p.mb-5(data-aos="fade-left") El espacio de trabajo donde se encuentren ubicadas las máquinas herramientas controladas numéricamente por computador CNC, debe cumplir con las condiciones mínimas para poder mecanizar de manera segura, cómoda y eficiente. 
+    p.mb-3(data-aos="fade-left") El espacio de trabajo donde se encuentren ubicadas las máquinas herramientas controladas numéricamente por computador CNC, debe cumplir con las condiciones mínimas para poder mecanizar de manera segura, cómoda y eficiente. 
     p.mb-5(data-aos="fade-right") Las principales condiciones para el buen funcionamiento del espacio de trabajo son:
 
     .row.justify-content-center.mb-5
@@ -134,10 +133,8 @@
             .col-md-12.mb-4.mb-md-0
               p El aire comprimido, muchas de las funciones básicas de las máquinas herramientas controladas numéricamente por computador CNC, se realizan gracias al aire comprimido, es importante garantizar que la cantidad y la presión van a ser suficientes para todo el mecanizado planeado y que no se presentarán variaciones.
 
-    Separador
 
-    #t_3_3.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2 3.3  Preparación de la máquina
+    h3.mb-4(data-aos='fade-right') Preparación de la máquina
 
     p.mb-5(data-aos="fade-left") El éxito del resultado del proceso de mecanizado, depende en gran parte, del desempeño que tengan las máquinas herramientas controladas numéricamente por computador CNC durante su ejecución. Así pues, es muy importante la preparación que se les haga, 
       b siguiendo siempre las recomendaciones de los fabricantes y proveedores

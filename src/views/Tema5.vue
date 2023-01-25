@@ -28,7 +28,7 @@
         figure
           img(src='@/assets/curso/temas/tema5/img5-2.svg' alt='Ventajas y desventajas')
       .col-lg-10.col-sm-10(data-aos="fade-left")
-        p Los procesos con las máquinas herramientas controladas numéricamente por el computador CNC, han venido tomando mucha fuerza en el campo de la manufactura. Sin embargo, el uso de esta tecnología trae consigo una serie de ventajas y de desventajas, siendo las primeras más numerosas evidentemente.
+        p Los procesos con las máquinas herramientas controladas numéricamente por el computador CNC, han venido tomando mucha fuerza en el campo de la manufactura. Sin embargo, el uso de esta tecnología trae consigo una serie de ventajas y desventajas siendo, evidentemente, más numerosas las ventajas.
         p.mb-0 A continuación, se pueden conocer estas ventajas y desventajas:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
@@ -72,8 +72,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="flip-up")
         .cajon.color-acento-botones.p-4(style="background-color: rgba(162, 230, 176, .25)")
-          p.mb-0 Se recomienda realizar la actividad de aprendizaje y ver los otros recursos complementarios disponibles en el menú principal, estos ayudarán a ampliar los conocimientos.
-
+          p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 </template>
 
 <script>

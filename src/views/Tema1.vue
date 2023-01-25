@@ -87,7 +87,7 @@
               b guías técnicas 
               |y ser difundidas en el país.
             p Para profundizar más y conocer algunas de estas guías, se recomienda consultar a través del siguiente enlace:
-            a.anexo.mb-4.mb-lg-0(href="https://sst-safework.com/ntc-listado-de-guias-y-normas-tecnicas-colombianas-de-seguridad-y-salud-en-el-trabajo/" target="_blank")
+            a.anexo.mb-4.mb-lg-0(href="https://safetya.co/normas-tecnicas-colombianas-en-sst/" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto

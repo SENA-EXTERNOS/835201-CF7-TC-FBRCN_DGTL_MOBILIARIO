@@ -20,11 +20,11 @@
     z-index: 3
 
 .imagen-banner
-    position: absolute
-    top: 17%
-    right: 26%
-    z-index: 1
-    margin-left: 20%
+  position: absolute
+  top: 17%
+  right: 26%
+  z-index: 1
+  margin-left: 20%
 
 @keyframes float1
   0%
@@ -54,7 +54,7 @@
 @media screen and (max-width: 767px)
   figure > img
     max-width: 350px
-      margin: 1rem auto;
+    margin: 1rem auto
 
 .banner-principal__img
   background-size: 500px 400px
@@ -66,7 +66,7 @@
 
 .cs
   color: $color-secundario !important
-  
+
 .cac
   color: $color-acento-contenido !important
 
@@ -82,7 +82,7 @@
 .img-infografica__item
   width: 3.5%
 .img-infografica__item__numero
-    font-size: 1.6rem
+  font-size: 1.6rem
 
 .cft31
   background-color: #BFE0FA
@@ -92,13 +92,6 @@
 
 .cfta
   background-color: rgba(162, 230, 176, .4)
-
-.banner-interno__fondo
-  background-image: url("../assets/curso/temas/fondoSup.png") !important
-  background-repeat: no-repeat
-  background-position: center
-  background-color: #EFEFEF !important
-  background-size: cover
 
 .banner-principal h1
   color: $color-sistema-texto !important
@@ -181,7 +174,7 @@
 .linea-tiempo-d__item__content__slot
   background-color: rgba(232, 243, 252, .5)
 .linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: rgba(232, 243, 252, .5) 
+  background-color: rgba(232, 243, 252, .5)
 
 //TEMA 4
 .tarjeta.color-secundario
@@ -207,23 +200,25 @@
   height: 388.64px
 
 .crd_hover_txt
-  position: relative  
+  position: relative
   padding: 0 !important
-  overflow: hidden !important  
-  &:hover    
-    .crd_hover_txt--body   
-      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+  overflow: hidden !important
+  &:hover
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
       transform: translateY(0)
 
   .crd_hover_txt--body
     position: absolute
     padding: 1.5rem
-    bottom: 0    
+    bottom: 0
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
     background-color: rgb(126, 193, 247)
-  
-  @media (min-width:1200px) and (max-width:1400px)  
+
+  @media (min-width:1200px) and (max-width:1400px)
     .crd_hover_txt--body
       p
         font-size: 0.85em
+.banner-interno__fondo
+  background-image: url(../assets/curso/portada/interno.png) !important

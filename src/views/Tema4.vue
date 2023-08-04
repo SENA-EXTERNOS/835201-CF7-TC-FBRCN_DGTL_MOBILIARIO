@@ -84,21 +84,21 @@
       b las dimensiones dibujadas y las dimensiones reales.
     p.mb-5 Los tipos de escala que se emplean en dibujo son los siguientes:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.mb-5
       .col-lg-3.col-sm-8.mb-sm-4(data-aos="fade-left")
-        .tarjeta.cft4.p-4
+        .tarjeta.cft4.p-4.h-100
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema4/img8.svg', alt='Escala reducida')
           h4.text-center Escala de reducción
       .col-lg-3.col-sm-8.mb-sm-4(data-aos="zoom-in")
-        .tarjeta.cft4.p-4
+        .tarjeta.cft4.p-4.h-100
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema4/img9.svg', alt='Escala ampliada')
           h4.text-center Escala de ampliación
       .col-lg-3.col-sm-8.mb-sm-4(data-aos="fade-right")
-        .tarjeta.cft4.p-4
+        .tarjeta.cft4.p-4.h-100
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema4/img10.svg', alt='Escala real')

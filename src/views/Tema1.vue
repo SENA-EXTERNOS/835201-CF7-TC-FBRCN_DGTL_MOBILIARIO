@@ -20,21 +20,21 @@
 
     p.mb-5(data-aos="fade-right") Siempre es necesario mantener el control de riesgos en estas áreas:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.mb-5
       .col-lg-4.mb-sm-4(data-aos="fade-left")
-        .tarjeta.cft31.p-4
+        .tarjeta.cft31.p-4.h-100
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema1/img1-2.svg', alt='Personal')
           h4.text-center Personal que labora y ejecuta las máquinas
       .col-lg-4.mb-sm-4(data-aos="zoom-in")
-        .tarjeta.cft32.p-4
+        .tarjeta.cft32.p-4.h-100
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema1/img1-3.svg', alt='Maquinaria')
           h4.text-center Maquinaria
       .col-lg-4.mb-sm-4(data-aos="fade-right")
-        .tarjeta.cft31.p-4
+        .tarjeta.cft31.p-4.h-100
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema1/img1-4.svg', alt='Fábrica')

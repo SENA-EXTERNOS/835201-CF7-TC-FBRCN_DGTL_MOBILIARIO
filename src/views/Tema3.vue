@@ -52,28 +52,28 @@
             em software 
           |y programación, como de 
           b mecanizado convencional
-          |. Además debe tener y demostrar ciertas destrezas, habilidades y conocimientos que se abordan a continuación.
+          |. Además, debe tener y demostrar ciertas destrezas, habilidades y conocimientos que se abordan a continuación.
         br
         br
         p.mb-0 Si bien, no siempre quien opera la máquina tiene que ser la misma persona que realizó el programa, es importante que también tenga conocimientos en la programación con máquinas herramientas controladas por computador CNC.
 
     p.mb-5(data-aos="fade-right") El operario también debe contar con conocimientos en áreas como:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.mb-5
       .col-lg-4.mb-sm-4(data-aos="fade-left")
-        .tarjeta-avatar
+        .tarjeta-avatar.h-100
           img(src='@/assets/curso/temas/tema3/img3-6.svg', alt='Trigonometría')
           .tarjeta.cfta.w-100
             .text-center.mt-4
               h4 Álgebra y trigonometría
       .col-lg-4.mb-sm-4(data-aos="zoom-in")
-        .tarjeta-avatar
+        .tarjeta-avatar.h-100
           img(src='@/assets/curso/temas/tema3/img3-7.svg', alt='Planos')
           .tarjeta.cfta.w-100
             .text-center.mt-4
               h4 Dibujo técnico o interpretación de planos
       .col-lg-4(data-aos="fade-right")
-        .tarjeta-avatar
+        .tarjeta-avatar.h-100
           img(src='@/assets/curso/temas/tema3/img3-8.svg', alt='Manual')
           .tarjeta.cfta.w-100
             .text-center.mt-4

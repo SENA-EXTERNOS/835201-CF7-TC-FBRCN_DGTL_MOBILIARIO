@@ -199,8 +199,8 @@
 
     p.mb-5 A continuación, se observan los elementos de protección personal más usados:
 
-    TabsA.color-acento-botones.mb-5(data-aos="zoom-in")
-      .tarjeta.color-secundario--borde.p-4(titulo="La ropa de trabajo")
+    TabsC.color-acento-botones.mb-5(data-aos="zoom-in")
+      .tarjeta.color-secundario--borde.p-4.mb-3(titulo="La ropa de trabajo")
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-7
             p Generalmente, la 
@@ -212,14 +212,14 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/img2-21.png', alt='Operaria')
-      .tarjeta.color-secundario--borde.p-4(titulo="Artículos y accesorios <br> de cuidado")
+      .tarjeta.color-secundario--borde.p-4.mb-3(titulo="Artículos y accesorios  de cuidado")
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-7
             p Aunque las máquinas herramientas controladas numéricamente por computador CNC tengan guardas de seguridad, es muy importante que los operarios que tienen el cabello largo utilicen las cofias indicadas, para evitar que sean atrapados por los sistemas mecánicos de la máquina.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/img2-22.png', alt='Operaria manipulando maquinaria')
-      .tarjeta.color-secundario--borde.p-4(titulo="Accesorios de protección <br>ocular")
+      .tarjeta.color-secundario--borde.p-4.mb-3(titulo="Accesorios de protección ocular")
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-7
             p El operario de máquinas herramientas controladas numéricamente por computador CNC, debe portar en todo momento las 
@@ -228,7 +228,7 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/img2-23.png', alt='Gafas de seguridad')
-      .tarjeta.color-secundario--borde.p-4(titulo="Calzado de seguridad")
+      .tarjeta.color-secundario--borde.p-4.mb-3(titulo="Calzado de seguridad")
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-7
             p El 
@@ -237,7 +237,7 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/img2-24.png', alt='Botas de seguridad')
-      .tarjeta.color-secundario--borde.p-4(titulo="Dispositivos de protección <br>auditiva")
+      .tarjeta.color-secundario--borde.p-4.mb-3(titulo="Dispositivos de protección auditiva")
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-7
             p Se debe evaluar si en el entorno de trabajo del mecanizado se presenta 
@@ -246,7 +246,7 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/img2-25.png', alt='Protección auditiva')
-      .tarjeta.color-secundario--borde.p-4(titulo="Máscaras, barbijos o <br>cubrebocas")
+      .tarjeta.color-secundario--borde.p-4.mb-3(titulo="Máscaras, barbijos o cubrebocas")
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-7
             p De ser necesario se debe utilizar 
@@ -258,7 +258,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="flip-up")
-        .cajon.color-acento-contenido.p-4(style="background-color: rgba(207, 189, 176, .25)")
+        .cajon.color-acento-contenido.p-4.mb-3(style="background-color: rgba(207, 189, 176, .25)")
           p.mb-0 En todo caso, así se utilicen los EPP y se cumplan las normas de seguridad industrial establecidas, si no se tiene una 
             b actitud de gestores de riesgos 
             |los accidentes se presentarán en cualquier momento. 
